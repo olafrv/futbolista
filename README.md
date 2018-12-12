@@ -1,2 +1,2 @@
 # futbolista
-Soccer Pool Portal Desktop &amp; Mobile Application
+Visit www.olafrv.com/futbol and register.
