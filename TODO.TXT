@@ -1,7 +1,0 @@
-[olafrv@www cakeapp]$ cat ./futbolm/src/Controller/*Controller.php | grep token
-				. '/futbol/payments/pot/competition_id:' . $competition . '/token:a1c2e478Ghjtz89';
-			. '/futbol/bets/crosstop10/competition:' . $competition . '/token:a1c2e478Ghjtz89';
-					$url = 'https://' . $this->request->host() . '/futbol/users/forgot/token:a1c2e478Ghjtz89';
-				$url = 'https://' . $this->request->host() . '/futbol/users/changePassword/token:a1c2e478Ghjtz89';
-					$url = 'https://' . $this->request->host() . '/futbol/users/register/token:a1c2e478Ghjtz89';
-					$url = 'https://' . $this->request->host() . '/futbol/users/crosslogin/token:a1c2e478Ghjtz89';
