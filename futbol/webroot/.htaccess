@@ -1,0 +1,14 @@
+RewriteOptions inherit
+
+RewriteEngine On
+    
+# Redirect /futbol instead of /, not needed if using subdomain - Olaf
+RewriteBase /futbol
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>

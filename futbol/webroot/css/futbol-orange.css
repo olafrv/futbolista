@@ -1,0 +1,60 @@
+div#futbol_ie_warning{
+   background:#F5F6BE;
+   width:1024px;
+   margin: auto;
+   padding:0;
+   border-bottom:1px solid #A5ACB2;
+   overflow:hidden;
+   text-align: center;
+   font-weight:normal;
+   font-size:12px;
+   color: white;
+   padding-top:4px;
+   display: none;
+}
+input.futbol_goals {
+	width: 20px;
+	height: 20px; 
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial,Helvetica,Sans-Serif;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+input.futbol_penalties {
+	width: 20px;
+	height: 20px; 
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial,Helvetica,Sans-Serif;
+	background-color: #EC4F02;
+	color: white;
+	text-align: center;
+}
+p.futbol_calendar {
+	width: 120px; 
+	margin-left: 20px; 
+	border: 1px; 
+	padding: 10px; 
+	background: #EC4F02; 
+	color: white; 
+	font-weight: bold; 
+	text-align: center;
+	border-radius: 0.5em;
+}
+
+p.futbol_pot {
+	width: 120px; 
+	margin-left: 20px; 
+	border: 1px; 
+	padding: 10px; 
+	background: #F4DD3F;
+	color: black; 
+	font-size: 16px;
+	font-weight: bold; 
+	text-align: center;
+	border-radius: 0.5em;
+}
+
+

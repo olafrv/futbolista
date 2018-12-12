@@ -1,0 +1,43 @@
+
+<?php
+
+	$banners = 8;
+	$banner = rand(0, $banners-1);
+?>
+
+<?php if (Configure::read('Futbol.userIpCountry')=="VE"){ ?>
+<iframe id="godaddy_url" style="display: none;"></iframe>
+<? } ?>
+
+<?php if ($banner == 0): ?>
+<a id="godaddy_link" href="https://affiliate.godaddy.com/redirect/DFEC483F0555C9AFA949A3D71BC24586C499A868DDC67A8512CF1CF876E1DD088D1D821D50F7420D5442B3B7E56221BC"><img src="https://affiliate.godaddy.com/ads/DFEC483F0555C9AFA949A3D71BC24586C499A868DDC67A8512CF1CF876E1DD088D1D821D50F7420D5442B3B7E56221BC" border="0" width="468"  height="60" alt="$1.99/mo Web Hosting"/></a>
+<?php endif; ?>
+
+<?php if ($banner == 1): ?>
+<a id="godaddy_link" href="https://affiliate.godaddy.com/redirect/913BFE76D3DD2E6198E22725916DAAF095F1A3CD53FF82E80138621A2EC20B2FB26210E5952FD8C69B1DD74DCBA46E50D861AD5922C76915D7F3E1AA0EF99090"><img src="https://affiliate.godaddy.com/ads/913BFE76D3DD2E6198E22725916DAAF095F1A3CD53FF82E80138621A2EC20B2FB26210E5952FD8C69B1DD74DCBA46E50D861AD5922C76915D7F3E1AA0EF99090" border="0" width="468"  height="60" alt="Save 10% on your entire order"/></a>
+<?php endif; ?>
+
+<?php if ($banner == 2): ?>
+<a  id="godaddy_link" href="https://affiliate.godaddy.com/redirect/9F346BB50C318A382930D255152742C4C94BC6AFE18FF50737EB8D0E3F6724CC33775518D65F54B92626E236742E603AEF4CD79D0FBB8E77426DD6F71DB75C98"><img src="https://affiliate.godaddy.com/ads/9F346BB50C318A382930D255152742C4C94BC6AFE18FF50737EB8D0E3F6724CC33775518D65F54B92626E236742E603AEF4CD79D0FBB8E77426DD6F71DB75C98" border="0" width="468"  height="60" alt="Domain Auctions at GoDaddy.com"/></a>
+<?php endif; ?>
+
+<?php if ($banner == 3): //?>
+<a  id="godaddy_link" href="https://affiliate.godaddy.com/redirect/95CDACED4D1B2064AB821819F11E2196D64F661532547B2BFCCEA3AB9CE74E30DCFEF9918F00EBDD87FF3636B98D74DE"><img src="https://affiliate.godaddy.com/ads/95CDACED4D1B2064AB821819F11E2196D64F661532547B2BFCCEA3AB9CE74E30DCFEF9918F00EBDD87FF3636B98D74DE" border="0" width="468"  height="60" alt="World-class Linux hosting from GoDaddy.com"/></a>
+<?php endif; ?>
+
+<?php if ($banner == 4): ?>
+<a href="https://affiliate.godaddy.com/redirect/F576E6F20EE8FAF0A9EF73B77DB926AE33CA95C3C4812BA637CBB14621FCCB3DD9C44A36182518B147F55AD29F6BC1228E002940D6F7F66A031F772561A90FD4"><img src="https://affiliate.godaddy.com/ads/F576E6F20EE8FAF0A9EF73B77DB926AE33CA95C3C4812BA637CBB14621FCCB3DD9C44A36182518B147F55AD29F6BC1228E002940D6F7F66A031F772561A90FD4" border="0" width="468"  height="60" alt="Go Daddy $12.99 SSL Sale!"/></a>
+<?php endif; ?>
+
+<?php if ($banner == 5): ?>
+<a  id="godaddy_link" href="https://affiliate.godaddy.com/redirect/014BD7F759D683988DBAEE3AFD43FB00F4FA4AE55C23903695072DABED859FE1E2D1B7E91291AF7D4B09AE6DF0DE9B24DF512EE72C490F6DAAE3348C9795B93E"><img src="https://affiliate.godaddy.com/ads/014BD7F759D683988DBAEE3AFD43FB00F4FA4AE55C23903695072DABED859FE1E2D1B7E91291AF7D4B09AE6DF0DE9B24DF512EE72C490F6DAAE3348C9795B93E" border="0" width="468"  height="60" alt="SSL Security You Can Bank On at GoDaddy.com"/></a>
+<?php endif; ?>
+
+<?php if ($banner == 6): ?>
+<a  id="godaddy_link" href="https://affiliate.godaddy.com/redirect/3A418859ACD93257D032F12987D990679802D2B409729FF625CD8AF20674B60572A851962AF4B57C07C2A474CFFB53CD"><img src="https://affiliate.godaddy.com/ads/3A418859ACD93257D032F12987D990679802D2B409729FF625CD8AF20674B60572A851962AF4B57C07C2A474CFFB53CD" border="0" width="468"  height="60" alt="Virtual Dedicated Servers from just $29.99/mo"/></a>
+<?php endif; ?>
+
+<?php if ($banner == 7): ?>
+<a  id="godaddy_link" href="https://affiliate.godaddy.com/redirect/912EFF9B2677376CBFD52943ACAD8C3D713BE01C974DFC428ED601623C7BC857E5DD0BF595A6CAFCE01079B32B0B4AFB388915B36E3C8F6FCE6669CCECB4C5AC"><img src="https://affiliate.godaddy.com/ads/912EFF9B2677376CBFD52943ACAD8C3D713BE01C974DFC428ED601623C7BC857E5DD0BF595A6CAFCE01079B32B0B4AFB388915B36E3C8F6FCE6669CCECB4C5AC" border="0" width="468"  height="60" alt="Online File Folder - Work wherever you want!"/></a>
+<?php endif; ?>
+

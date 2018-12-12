@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html class=" js no-csstransforms3d" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script type="text/javascript" src="join-models-together-with-linkable-plugin_files/a_003"></script><script type="text/javascript" src="join-models-together-with-linkable-plugin_files/a_002"></script><script type="text/javascript" src="join-models-together-with-linkable-plugin_files/a"></script>
+      <meta http-equiv="X-UA-Compatible" content="chrome=1">
+      <meta name="width" content="500">
+      <meta name="generator" content="Posterous">
+      <link href="join-models-together-with-linkable-plugin_files/posts.css" media="screen" rel="stylesheet" type="text/css">
+      <!--[if lt IE 9]>
+        <link href="/bundles/ie.css?1307064084" media="screen" rel="stylesheet" type="text/css" />
+      <![endif]-->  
+      <link rel="alternate" type="application/rss+xml" href="http://programmingresources.posterous.com/rss.xml">
+      <meta property="og:site_name" content="Programming Resources"><meta property="fb:app_id" content="6694405826"><meta name="medium" content="blog"><meta property="og:title" content="Join Models Together with linkable plugin"><meta property="og:type" content="blog"><meta property="og:url" content="http://programmingresources.posterous.com/join-models-together-with-linkable-plugin"><meta property="og:image" content="http://files.posterous.com/user_profile_pics/946048/gs.png"><meta property="og:description" content="Linkable Plugin CakePHP plugin, PHP 5 Introduction Linkable is a lightweight approach for data mining on deep relations between models. Joins tables based on model relations to easily enable right to left find operations. Requirements CakePHP 1.2.x or 1.3.x PHP 5 Installation Download the latest rele"><link rel="image_src" href="http://files.posterous.com/user_profile_pics/946048/gs.png">
+      <script type="text/javascript">
+//<![CDATA[
+window._token = '+6Sne9ESWgjoNYFtWehTp2fuJV/pZiBIRTXFAuygZBk='; beforeload = (new Date()).getTime(); pagetype = 'show';
+//]]>
+</script>
+      <script src="join-models-together-with-linkable-plugin_files/sites_initialization.js" type="text/javascript"></script>
+      <script type="text/javascript">
+//<![CDATA[
+var $j = jQuery.noConflict();
+//]]>
+</script>
+      <script data-post-data="%7B%22post_url_slug%22%3A%22join-models-together-with-linkable-plugin%22%2C%22user_id%22%3A605794%2C%22post_id%22%3A27450539%2C%22post_is_private%22%3Afalse%7D" data-posterous-deferred-content-url="http://programmingresources.posterous.com/posts/deferred_content.jsonp" data-posts-data="%5B%7B%22post_url_slug%22%3A%22join-models-together-with-linkable-plugin%22%2C%22user_id%22%3A605794%2C%22post_id%22%3A27450539%2C%22post_is_private%22%3Afalse%7D%5D" id="posterous_initialization_script" src="join-models-together-with-linkable-plugin_files/initialize.js" type="text/javascript"></script>      
+      <script src="join-models-together-with-linkable-plugin_files/modernizr.js" type="text/javascript"></script>
+      
+      <!--[if lt IE 9]>
+        <script src="/javascripts/html5.js?1307063978" type="text/javascript"></script>
+        <script src="/javascripts/innershiv.js?1307063978" type="text/javascript"></script>
+      <![endif]-->          
+    <script src="join-models-together-with-linkable-plugin_files/tags.js" type="text/javascript"></script><link rel="canonical" href="http://programmingresources.posterous.com/join-models-together-with-linkable-plugin">
+    <meta charset="utf-8">
+    
+    
+  	
+  		
+  	
+  		
+  	
+  	
+  	<link href="http://programmingresources.posterous.com/images/favicon.png" rel="icon" type="image/x-png">
+  	
+  	<title>Join Models Together with linkable plugin - Programming Resources</title>
+<link href="join-models-together-with-linkable-plugin_files/styles.css" rel="stylesheet" type="text/css">
+  	<style>
+    	/* global styles */
+    	body, html { text-align: center; width: 100%; height: 100%; margin: 0; padding: 0; background-color: #fff; font-family: Arial, Helvetica, sans-serif; color: #424037; }
+    	
+    	a { color: #bc7134; text-decoration: none; }
+    	a[name] { color: #999; text-decoration: none; }
+    
+    	article header h1 a { color: #444; }
+    	article header h1 a:hover { color: #999; text-decoration: none; }
+    	
+    	header#page_header hgroup { margin-top: 40px; #999; display: block; }
+    	header#page_header hgroup a { color: #999; }
+    	header#page_header hgroup h2 { margin: 10px 0 30px; font-size: 1.4em; font-weight: normal; color: #999; letter-spacing: 0px;}
+    	
+      nav#navigation ul li a.current { color: #999; }
+      
+      section#extra_links h1 span { letter-spacing: 0; display: block; font-size: 10px; font-weight: normal; color: #999; }
+      section#extra_links ul { color: #999; font-size: 10px; }
+      
+      form.search input.text { font-size: 12px; padding: 2px 2px 2px 20px; border: 1px solid #ccc; background: #fff url('/images/icons/search16.png') no-repeat 3px 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+      
+      aside#sidebar { float: right; width: 175px; margin-top: 20px; font-size: 1.2em; color: #999; }
+      aside#sidebar section h1 { font-size: 11px; font-weight: normal; color: #999; letter-spacing: 0; }
+      aside#sidebar section ul li { list-style: none; color: #999; }
+      
+      section#statistics { font-size: 10px; color: #999; }
+      section#statistics strong { color: #424037; }
+
+      section#tags li.selected a { color: #424037; }
+            
+      h2#archive_list {margin-top: 0px; color: #111;}
+      section#archives {display:block;}
+      section#archives div.inner {margin-left:10px;line-height:1.5em;} 
+      section#archives div.year {margin-top:5px;margin-bottom:5px;}
+      
+      article header aside.sms { font-size: 11px; color: #999; }
+      
+      div.editbox a { color: #999; }
+    	div.editbox a:hover { color: #bc7134; }
+      
+      article time a { font-size: 14px; color: #C6C1A5; }
+      
+      footer section.author { width: 500px; margin-left: 155px; float: none; margin-bottom: 15px; }
+      footer section.author h1 { font-size: 10px; font-weight: normal; color: #999; margin: 0 0 5px; }
+      footer section.author h1 a { color: #999; }
+      footer section.author:hover h1 a { color: #bc7134; text-decoration: none; }
+      
+    	div.comment_label { float: left; width: 130px; color: #C6C1A5; font-size: 14px; padding-top: 2px; margin-top: 0px; text-align: right; }
+    	div.comment_spacer { float: left; width: 130px; color: #999; font-size: 14px; padding-top: 14px; text-align: right; display: block; }
+    	div.comment_date { color: #C6C1A5; font-size: 14px; }
+    	div.commentunit { margin: 10px 0px; color: #424037; }
+
+      footer section.locations h1 { font-size: 11px; font-weight: normal; color: #999; line-height: 21px; margin-top: 0px; }
+    
+    	.pagination a:hover, .pagination a:active { border: 1px solid #ca9d00; color: #bc7134; }
+    	.pagination span.current { padding: 2px 5px; margin: 2px; font-weight: bold; border: 1px solid #bc7134; background-color: #bc7134; color: #fff; }
+    	
+    	input, select, textarea { color: #444; font-size: 1.6em; font-family: "Lucida Grande", sans-serif; 
+    		line-height:1.3em !important; padding: 5px; }
+    	input[type='text'], input[type='password'], select, textarea { background-color: #fff; border: 1px solid #ccc; }
+    	input[type='button'], input[type='submit'] { height: 2em; font-size: 1.4em; color: #444; margin-top: 10px; }
+    	
+    	#rss { margin: 10px 0px; }
+    	
+      footer section.share, footer section.tags, footer section.locations { margin-bottom: 15px; }
+      footer section.share { margin-bottom: 18px; float: right; width: auto; margin: 10px 0 0; }
+      .p_response_widget { float: left; }
+      .p_response_container { clear: both; }
+      
+      div.posterous_tweet_button { margin-right: 0; }
+    	
+  	</style>
+  <style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}
+.fb_reset{background:none;border-spacing:0;border:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size: 11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}
+.fb_link img{border:none}
+.fb_dialog{position:absolute;top:-10000px;z-index:10001}
+.fb_dialog_advanced{background:rgba(82, 82, 82, .7);padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px}
+.fb_dialog_advanced.fb_mobile{background:rgba(82, 82, 82, .7);padding:4px;-moz-border-radius:2px;-webkit-border-radius:2px}
+.fb_dialog_content{background:#fff;color:#333}
+.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v1/zq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v1/zL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px;top:8px\9;right:7px\9}
+.fb_mobile .fb_dialog_close_icon{top:11px
+}
+.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v1/zq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v1/zL/r/s816eWC-2sl.gif)}
+.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v1/zq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v1/zL/r/s816eWC-2sl.gif)}
+.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size: 24px;padding:20px}
+.fb_dialog_top_left,
+.fb_dialog_top_right,
+.fb_dialog_bottom_left,
+.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}
+.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v1/ze/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}
+.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v1/ze/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}
+.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v1/ze/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}
+.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v1/ze/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}
+.fb_dialog_vert_left,
+.fb_dialog_vert_right,
+.fb_dialog_horiz_top,
+.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}
+.fb_dialog_vert_left,
+.fb_dialog_vert_right{width:10px;height:100%}
+.fb_dialog_vert_left{margin-left:-10px}
+.fb_dialog_vert_right{right:0;margin-right:-10px}
+.fb_dialog_horiz_top,
+.fb_dialog_horiz_bottom{width:100%;height:10px}
+.fb_dialog_horiz_top{margin-top:-10px}
+.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}
+.fb_dialog_iframe{line-height:0}
+.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size: 14px;font-weight:bold;margin:0}
+.fb_dialog_content .dialog_title > span{background:url(http://static.ak.fbcdn.net/rsrc.php/v1/zd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}
+.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v1/z9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}
+.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}
+#fb_dialog_loader_close{float:right}
+.fb_iframe_widget{position:relative;display:-moz-inline-block;display:inline-block}
+.fb_iframe_widget iframe{position:relative;vertical-align:text-bottom}
+.fb_iframe_widget span{position:relative}
+.fb_hide_iframes iframe{position:relative;left:-10000px}
+.fb_iframe_widget_loader{position:relative;display:inline-block}
+.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}
+.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v1/z9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_button_simple,
+.fb_button_simple_rtl{background-image:url(http://static.ak.fbcdn.net/rsrc.php/v1/zH/r/eIpbnVKI9lR.png);background-repeat:no-repeat;cursor:pointer;outline:none;text-decoration:none}
+.fb_button_simple_rtl{background-position:right 0}
+.fb_button_simple .fb_button_text{margin:0 0 0 20px;padding-bottom:1px}
+.fb_button_simple_rtl .fb_button_text{margin:0 10px 0 0}
+a.fb_button_simple:hover .fb_button_text,
+a.fb_button_simple_rtl:hover .fb_button_text,
+.fb_button_simple:hover .fb_button_text,
+.fb_button_simple_rtl:hover .fb_button_text{text-decoration:underline}
+.fb_button,
+.fb_button_rtl{background:#29447e url(http://static.ak.fbcdn.net/rsrc.php/v1/zL/r/FGFbc80dUKj.png);background-repeat:no-repeat;cursor:pointer;display:inline-block;padding:0 0 0 1px;text-decoration:none;outline:none}
+.fb_button .fb_button_text,
+.fb_button_rtl .fb_button_text{background:#5f78ab url(http://static.ak.fbcdn.net/rsrc.php/v1/zL/r/FGFbc80dUKj.png);border-top:solid 1px #879ac0;border-bottom:solid 1px #1a356e;color:#fff;display:block;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;font-weight:bold;padding:2px 6px 3px 6px;margin:1px 1px 0 21px;text-shadow:none}
+a.fb_button,
+a.fb_button_rtl,
+.fb_button,
+.fb_button_rtl{text-decoration:none}
+a.fb_button:active .fb_button_text,
+a.fb_button_rtl:active .fb_button_text,
+.fb_button:active .fb_button_text,
+.fb_button_rtl:active .fb_button_text{border-bottom:solid 1px #29447e;border-top:solid 1px #45619d;background:#4f6aa3;text-shadow:none}
+.fb_button_xlarge,
+.fb_button_xlarge_rtl{background-position:left -60px;font-size: 24px;line-height:30px}
+.fb_button_xlarge .fb_button_text{padding:3px 8px 3px 12px;margin-left:38px}
+a.fb_button_xlarge:active{background-position:left -99px}
+.fb_button_xlarge_rtl{background-position:right -268px}
+.fb_button_xlarge_rtl .fb_button_text{padding:3px 8px 3px 12px;margin-right:39px}
+a.fb_button_xlarge_rtl:active{background-position:right -307px}
+.fb_button_large,
+.fb_button_large_rtl{background-position:left -138px;font-size: 13px;line-height:16px}
+.fb_button_large .fb_button_text{margin-left:24px;padding:2px 6px 4px 6px}
+a.fb_button_large:active{background-position:left -163px}
+.fb_button_large_rtl{background-position:right -346px}
+.fb_button_large_rtl .fb_button_text{margin-right:25px}
+a.fb_button_large_rtl:active{background-position:right -371px}
+.fb_button_medium,
+.fb_button_medium_rtl{background-position:left -188px;font-size: 11px;line-height:14px}
+a.fb_button_medium:active{background-position:left -210px}
+.fb_button_medium_rtl{background-position:right -396px}
+.fb_button_text_rtl,
+.fb_button_medium_rtl .fb_button_text{padding:2px 6px 3px 6px;margin-right:22px}
+a.fb_button_medium_rtl:active{background-position:right -418px}
+.fb_button_small,
+.fb_button_small_rtl{background-position:left -232px;font-size: 10px;line-height:10px}
+.fb_button_small .fb_button_text{padding:2px 6px 3px;margin-left:17px}
+a.fb_button_small:active,
+.fb_button_small:active{background-position:left -250px}
+.fb_button_small_rtl{background-position:right -440px}
+.fb_button_small_rtl .fb_button_text{padding:2px 6px;margin-right:18px}
+a.fb_button_small_rtl:active{background-position:right -458px}
+.fb_share_count_wrapper{position:relative;float:left}
+.fb_share_count{background:#b0b9ec none repeat scroll 0 0;color:#333;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;text-align:center}
+.fb_share_count_inner{background:#e8ebf2;display:block}
+.fb_share_count_right{margin-left:-1px;display:inline-block}
+.fb_share_count_right .fb_share_count_inner{border-top:solid 1px #e8ebf2;border-bottom:solid 1px #b0b9ec;margin:1px 1px 0 1px;font-size: 10px;line-height:10px;padding:2px 6px 3px;font-weight:bold}
+.fb_share_count_top{display:block;letter-spacing:-1px;line-height:34px;margin-bottom:7px;font-size: 22px;border:solid 1px #b0b9ec}
+.fb_share_count_nub_top{border:none;display:block;position:absolute;left:7px;top:35px;margin:0;padding:0;width:6px;height:7px;background-repeat:no-repeat;background-image:url(http://static.ak.fbcdn.net/rsrc.php/v1/zU/r/bSOHtKbCGYI.png)}
+.fb_share_count_nub_right{border:none;display:inline-block;padding:0;width:5px;height:10px;background-repeat:no-repeat;background-image:url(http://static.ak.fbcdn.net/rsrc.php/v1/zX/r/i_oIVTKMYsL.png);vertical-align:top;background-position:right 5px;z-index:10;left:2px;margin:0 2px 0 0;position:relative}
+.fb_share_no_count{display:none}
+.fb_share_size_Small .fb_share_count_right .fb_share_count_inner{font-size: 10px}
+.fb_share_size_Medium .fb_share_count_right .fb_share_count_inner{font-size: 11px;padding:2px 6px 3px;letter-spacing:-1px;line-height:14px}
+.fb_share_size_Large .fb_share_count_right .fb_share_count_inner{font-size: 13px;line-height:16px;padding:2px 6px 4px;font-weight:normal;letter-spacing:-1px}
+.fb_share_count_hidden .fb_share_count_nub_top,
+.fb_share_count_hidden .fb_share_count_top,
+.fb_share_count_hidden .fb_share_count_nub_right,
+.fb_share_count_hidden .fb_share_count_right{visibility:hidden}
+.fb_connect_bar_container div,
+.fb_connect_bar_container span,
+.fb_connect_bar_container a,
+.fb_connect_bar_container img,
+.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}
+.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}
+.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}
+.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size: 13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}
+.fb_connect_bar a:hover{color:#fff}
+.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}
+.fb_connect_bar div a,
+.fb_connect_bar span,
+.fb_connect_bar span a{color:#bac6da;font-size: 11px;text-decoration:none}
+.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fb_edge_widget_with_comment{position:relative;*z-index:1000}
+.fb_edge_widget_with_comment span.fb_edge_comment_widget{position:absolute}
+.fb_edge_widget_with_comment span.fb_edge_comment_widget iframe.fb_ltr{left:-4px}
+.fb_edge_widget_with_comment span.fb_edge_comment_widget iframe.fb_rtl{left:2px}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget{left:0;z-index:1}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget .FB_Loader{left:0;top:1px;margin-top:6px;margin-left:0;background-position:50% 50%;background-color:#fff;height:150px;width:394px;border:1px #666 solid;border-bottom:2px solid #283e6c;z-index:1}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget.dark .FB_Loader{background-color:#000;border-bottom:2px solid #ccc}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget.siderender
+.FB_Loader{margin-top:0}
+#fb_social_bar_container{position:fixed;left:0;right:0;height:34px;padding:0 25px;z-index:999999999}
+.fb_social_bar_iframe{position:relative;float:right;opacity:0;-moz-opacity:0;filter:alpha(opacity=0)}
+.fb_social_bar_iframe_bottom_ie6{bottom:auto;top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)))}
+.fb_social_bar_iframe_top_ie6{bottom:auto;top:expression(eval(document.documentElement.scrollTop-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)))}
+</style><script src="join-models-together-with-linkable-plugin_files/commonutil.js" charset="UTF-8" type="text/javascript"></script><script src="join-models-together-with-linkable-plugin_files/AuthenticationService.Authenticate" charset="UTF-8" type="text/javascript"></script><script defer="defer" src="join-models-together-with-linkable-plugin_files/tweetcount.json" type="text/javascript"></script></head>
+  <body style=""><div class="posterous_site_data" data-post-id="27450539" data-posterous-hostname="posterous.com" data-show-type="post" data-site-id="1672347" data-site-location="false" data-site-type="posterous" data-slug-id="join-models-together-with-linkable-plugin" data-user-id="28897"></div><div class="posterousPrivateBox">
+	
+	
+</div>
+      <div class=" fb_reset" id="fb-root"><script async="" src="join-models-together-with-linkable-plugin_files/all.js" type="text/javascript"></script><div style="position: absolute; top: -10000px; height: 0pt; width: 0pt;"></div></div>
+        <script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              apiKey : '9cccf2c9570e99aeb7ea4a7284b957a1',
+              status : true, // check login status
+              cookie : true, // enable cookies to allow the server to access the session
+              xfbml  : true  // parse XFBML
+            });
+            
+          };
+
+          (function() {
+            var e = document.createElement('script');
+            e.type = 'text/javascript';
+            e.src = 'http://connect.facebook.net/en_US/all.js';
+            e.async = true;
+            document.getElementById('fb-root').appendChild(e);
+          }());
+        </script>
+    
+    <div id="wrap">
+      <aside class="clearfix" id="posterous_header">
+        <a href="http://posterous.com/" class="logo" title="Posterous">Posterous</a>
+        <nav><div style="" data-posterous-bar-legacy="true"><div class="posterous_topnav">
+	<ul>
+		
+	  
+    <li class="first">
+    	
+    		<a href="http://programmingresources.posterous.com/#%21/slideshow" style="padding-right: 8px;">Slideshow</a>
+    							
+    </li>
+		
+		
+			
+				<li class="first"><a href="http://posterous.com/login?jumpto=http://programmingresources.posterous.com/join-models-together-with-linkable-plugin" style="padding-left: 5px;">Login</a></li>
+			
+			    
+				<li><a href="http://posterous.com/">Get your own Posterous&nbsp;»</a></li>
+		
+				
+</ul>
+
+
+</div></div></nav>
+      </aside>
+      <header id="page_header">
+        
+          <hgroup>
+            <h1><a href="http://programmingresources.posterous.com/" title="Programming Resources" rel="index">Programming Resources</a></h1>
+            
+          </hgroup>
+        
+        
+    		<section id="extra_links">
+          
+            <a href="http://programmingresources.posterous.com/" class="back_to_blog" rel="up">« Back to posts</a>
+          
+          
+          
+          
+          
+        </section>
+      </header>
+      <aside id="sidebar">
+        
+        
+          <section id="statistics">
+            <ul>
+              <li>Viewed <strong>1199 times</strong></li>
+            </ul>
+          </section>
+          
+                
+                  
+            <section id="tags">
+              <h1>Filed under</h1>
+              <ul>
+                
+              
+                
+                  <li><a href="http://programmingresources.posterous.com/tag/cakephp" rel="tag">cakephp</a></li>
+                
+              
+                
+                  <li><a href="http://programmingresources.posterous.com/tag/cakephp13" rel="tag">cakephp-1.3</a></li>
+                
+              
+                
+                  <li><a href="http://programmingresources.posterous.com/tag/join" rel="tag">join</a></li>
+                
+              
+                
+                  <li><a href="http://programmingresources.posterous.com/tag/linkable" rel="tag">linkable</a></li>
+                
+              
+                
+                  <li><a href="http://programmingresources.posterous.com/tag/models" rel="tag">models</a></li>
+                
+              
+                
+                  <li><a href="http://programmingresources.posterous.com/tag/plugins" rel="tag">plugins</a></li>
+                
+              
+            
+              </ul>
+            </section>
+          
+                
+              
+        
+        
+      </aside>
+      <div id="articles">
+        
+          <article class="post clearfix" id="post_27450539">
+            <header>
+              <section>
+                
+                  <time pubdate="pubdate" datetime="2010-09-05"><a href="http://programmingresources.posterous.com/join-models-together-with-linkable-plugin">September 5, 2010</a></time>
+                
+                
+              </section>
+              
+                <h1 class="post-title"><a href="http://programmingresources.posterous.com/join-models-together-with-linkable-plugin">Join Models Together with linkable plugin</a></h1>
+              
+              
+      	        
+            
+              <div class="editbox">
+                
+        				
+                  
+                  
+
+                
+                
+              
+              </div>
+            </header>
+            <div class="body">
+              <div class="inner">
+                <div class="posterous_bookmarklet_entry">
+      <blockquote><div><h3>Linkable Plugin</h3>
+
+<p>CakePHP plugin, PHP 5</p>
+
+<h3>Introduction</h3>
+
+<p>Linkable is a lightweight approach for data mining on deep relations 
+between models. Joins tables based on model relations to easily enable 
+right to left find operations.</p>
+
+<h3>Requirements</h3>
+
+<ul>
+<li>CakePHP 1.2.x or 1.3.x</li>
+<li>PHP 5</li>
+</ul>
+
+
+<h3>Installation</h3>
+
+<ol>
+<li><p><a href="http://github.com/Terr/linkable/downloads">Download</a> the latest release for your version of CakePHP or clone the Github repository</p></li>
+<li><p>Place the files in a directory called 'linkable' inside the <em>app/plugins</em> directory of your CakePHP project.</p></li>
+<li><p>Add the LinkableBehavior to a model or your AppModel:</p>
+
+<p> var $actsAs = array('Linkable.Linkable');</p></li>
+</ol>
+
+
+<h3>Usage</h3>
+
+<p>Use it as a option to a find call. For example, getting a Post record with their associated (belongsTo) author User record:</p>
+
+<div class="CodeRay">
+  <div class="code"><div class="CodeRay">
+  <div class="code"><pre>$this-&gt;Post-&gt;find('first', array(
+    'link'  =&gt; array(
+        'User'
+    )
+));</pre></div>
+</div>
+</div>
+</div>
+
+
+<p>This returns a Post record with it's associated User data. However, 
+this isn't much different from what you can do Containable, and with the
+ same amount of queries. Things start to change when linking hasMany or 
+hasAndBelongsToMany associations.</p>
+
+<p>Because Linkable uses joins instead of seperate queries to get 
+associated models, it is possible to apply conditions that operate from 
+right to left (Tag -&gt; Post) on hasMany and hasAndBelongsToMany 
+associations.</p>
+
+<p>For example, finding all posts with a specific tag (hasAndBelongsToMany assocation):</p>
+
+<div class="CodeRay">
+  <div class="code"><div class="CodeRay">
+  <div class="code"><pre>$this-&gt;Post-&gt;find('all', array(
+    'conditions'    =&gt; array(
+        'Tag.name'  =&gt; 'CakePHP'
+    ),
+    'link'  =&gt; array(
+        'Tag'
+    )
+));</pre></div>
+</div>
+</div>
+</div>
+
+
+<p>But what if you would still like all associated tags for the posts, 
+while still applying the condition from the previous example? 
+Fortunately, Linkable works well together with Containable. This example
+ also shows some of the options Linkable has:</p>
+
+<div class="CodeRay">
+  <div class="code"><div class="CodeRay">
+  <div class="code"><pre>$this-&gt;Post-&gt;find('all', array(
+    'conditions'    =&gt; array(
+        'TagFilter.name'    =&gt; 'CakePHP'
+    ),
+    'link'  =&gt; array(
+        'PostsTag'  =&gt; array(
+            'TagFilter' =&gt; array(
+                'class'         =&gt; 'Tag',
+                'conditions'    =&gt; 'TagFilter.id = PostsTag.tag_id',    // Join condition (LEFT JOIN x ON ...)
+                'fields'        =&gt; array(
+                    'TagFilter.id'
+                )
+            )
+        )
+    ),
+    'contain'   =&gt; array(
+        'Tag'
+    )
+));</pre></div>
+</div>
+</div>
+</div>
+
+
+<p>If you're thinking: yeesh, that is a lot of code, then I agree with 
+you ;). Linkable's automagical handling of associations with 
+non-standard names has room for improvement. Please, feel free to 
+contribute to the project via GitHub.</p>
+
+<h3>Pagination</h3>
+
+<p>As a last example, pagination. This will find and paginate all posts with the tag 'CakePHP':</p>
+
+<div class="CodeRay">
+  <div class="code"><div class="CodeRay">
+  <div class="code"><pre>$this-&gt;paginate = array(
+    'fields'    =&gt; array(
+        'title'
+    ),
+    'conditions'    =&gt; array(
+        'Tag.name'  =&gt; 'CakePHP'
+    ),
+    'link'  =&gt; array(
+        'Tag'
+    )
+    'limit' =&gt; 10
+);
+
+$this-&gt;paginate('Post');</pre></div>
+</div>
+</div>
+</div>
+
+
+<h3>Notes</h3>
+
+<p>When fetching data in right to left operations, meaning in "one to 
+many" relations (hasMany, hasAndBelongsToMany), it should be used in the
+ opposite direction ("many to one"), i.e:</p>
+
+<p>To fetch all Users assigned to a Project:</p>
+
+<div class="CodeRay">
+  <div class="code"><div class="CodeRay">
+  <div class="code"><pre>$this-&gt;Project-&gt;find('all', array('link' =&gt; 'User', 'conditions' =&gt; 'project_id = 1'));</pre></div>
+</div>
+</div>
+</div>
+
+
+<p>This won't produce the desired result as only a single user will be returned.</p>
+
+<div class="CodeRay">
+  <div class="code"><div class="CodeRay">
+  <div class="code"><pre>$this-&gt;User-&gt;find('all', array('link' =&gt; 'Project', 'conditions' =&gt; 'project_id = 1'));</pre></div>
+</div>
+</div>
+</div>
+
+
+<p>This will fetch all users related to the specified project in one query.</p>
+
+<h3>Authors</h3>
+
+<ul>
+<li>Originally authored by: Rafael Bandeira (rafaelbandeira3 (at) gmail (dot) com), <a href="http://rafaelbandeira3.wordpress.com/">http://rafaelbandeira3.wordpress.com</a></li>
+<li>Maintained by: Arjen Verstoep (terr (at) terr (dot) nl), <a href="http://github.com/Terr">http://github.com/Terr</a></li>
+<li>giulianob, <a href="http://github.com/giulianob">http://github.com/giulianob</a></li>
+<li>Chad Jablonski, <a href="http://github.com/cjab">http://github.com/cjab</a></li>
+</ul>
+
+
+<h3>License</h3>
+
+<p>Licensed under The MIT License
+Redistributions of files must retain the above copyright notice.</p>
+</div></blockquote><div class="posterous_quote_citation">via <a href="http://github.com/Terr/linkable#readme">github.com</a></div>
+    <p>An excellent plugin that joins the models defined in the "link" 
+array key of "find" method so that whenever you need to give a condition
+ for the related model in where clause you won't get "unknown column" 
+error in your sql.</p></div>
+              </div>
+            </div>
+            <footer>
+              
+              
+              
+                
+              
+            
+              
+                
+              
+      	          
+                  <section class="author">
+                    
+    	        
+    	          
+                      <h1>Posted by <a href="http://posterous.com/people/4wEYi9rd4Vrz" rel="author">Gaurav Sharma <img src="join-models-together-with-linkable-plugin_files/gs_thumb.png" alt="Gaurav Sharma"></a></h1>
+                    
+    					
+          
+                    
+    	        
+            
+                  </section>
+                
+      				
+            
+                
+              <aside class="p_responses light">
+                
+                  
+                 
+              
+                
+                    <section class="share">
+                      <div class="facebook_like">
+                          
+                
+                  <fb:like class=" fb_edge_widget_with_comment fb_iframe_widget" href="http://programmingresources.posterous.com/join-models-together-with-linkable-plugin" layout="button_count" show_faces="true" width="" action="like" font="lucida grande" colorscheme="light" ref=""><span><iframe src="join-models-together-with-linkable-plugin_files/like.html" class="fb_ltr" title="Like this content on Facebook." style="border: medium none; overflow: hidden; height: 20px; width: 90px;" name="f2d60919edc809e" id="f15bd549751583" scrolling="no"></iframe></span></fb:like>
+                
+              
+            </div>
+                      
+                          
+                
+                  <div class="posterous_tweet_button posterous_horizontal_count">
+                    <iframe title="Twitter For Websites: Tweet Button" style="width: 55px; height: 20px;" class="twitter-share-button twitter-count-none" src="join-models-together-with-linkable-plugin_files/tweet_button.html" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+                    <a href="http://www.backtype.com/search?q=http://programmingresources.posterous.com/join-models-together-with-linkable-plugin" data-posterous-retweet-count-id="27450539" class="posterous_tweet_count">
+                      <button id="num_tweets_27450539" class="posterous_retweet_count">0</button>
+                    </a>
+                  </div>
+                
+              
+            
+                    </section>
+                  
+              
+            
+          
+                  
+
+                  
+                    <nav class="p_response_widget">
+<ul class="clearfix">
+<li class="p_responses_link active"><a href="http://programmingresources.posterous.com/responses/recent?post_id=27450539" data-posterous-response-count="27450539" data-response-post-id="27450539" title="View responses to this post"><strong>1</strong> response</a></li>
+<li class="p_like_link"><a href="http://programmingresources.posterous.com/likes/create?like_type=post&amp;post_id=27450539" class="like_post" data-like-url="/likes/create?like_type=post&amp;post_id=27450539" data-posterous-like-button-for-post-id="27450539" data-posterous-like-text="Like this post" data-posterous-like="true" data-posterous-unlike-text="Unlike this post" data-unlike-url="/likes/delete?like_type=post&amp;post_id=27450539" title="Like this post"><div class="p_like_icon"></div><div class="p_unlike_icon" style="display:none"></div><span>Like this post</span></a></li>
+<li class="p_comment_link"><a href="http://programmingresources.posterous.com/responses/recent?post_id=27450539" data-comment-post-id="27450539" title="Comment on this post"><div>Comment</div></a></li>
+</ul>
+</nav>
+
+                		<div data-posterous-responses-for-post-id="27450539">
+<div class="p_response_container">
+<a name="comment"></a>
+<div class="p_responses_list clearfix" data-posterous-responses-container="">
+<article class="p_comment p_response" style="">
+<div class="p_info">
+<span class="p_icon"></span>
+<time pubdate="1283753491">9 months ago</time>
+<a href="http://posterous.com/people/KQwJH5yFMJ">Vinayak Joshi</a> responded:
+</div>
+<div class="p_comment_body">
+<div class="p_profile_photo">
+<a href="http://posterous.com/people/KQwJH5yFMJ"><img alt="Vinayak Joshi" src="join-models-together-with-linkable-plugin_files/vj-square_pic_thumb.jpg"></a>
+</div>
+<div class="p_comment_text">
+very valuable. good find.
+</div>
+</div>
+<ul class="p_action_links">
+</ul>
+
+</article>
+
+</div>
+</div>
+</div>
+
+                		<div class="p_comment_form p_not_logged_in">
+<h1>Leave a Comment</h1>
+<div class="icon"></div>
+<h2>Hello there. Don't believe we've met before!</h2>
+<p>Log in with any of the following to comment:</p>
+<div class="p_login_buttons">
+<a href="http://posterous.com/login?flow=newcomment&amp;jumpto=http%3A%2F%2Fprogrammingresources.posterous.com%2Fjoin-models-together-with-linkable-plugin%23comment" class="p_posterous_login">Register or login to Posterous</a>
+<fb:login-button class="p_facebook_login" onlogin="if (window.location.href == 'http://programmingresources.posterous.com/join-models-together-with-linkable-plugin#comment' || (window.location.href + '#comments') == 'http://programmingresources.posterous.com/join-models-together-with-linkable-plugin#comment') { window.location.reload(); } else { window.location.href = 'http://programmingresources.posterous.com/join-models-together-with-linkable-plugin#comment'; }"><a class="fb_button fb_button_medium"><span class="fb_button_text">Login</span></a></fb:login-button>
+<a href="#" class="p_twitter_login" data-posterous-jumpto-url="http://programmingresources.posterous.com/join-models-together-with-linkable-plugin#comment" data-posterous-post-id="27450539" data-posterous-redirect-url="http://posterous.com/oauth/init_oauth_and_redirect/?oauth_provider_type=" data-posterous-twitter-login-button="true"><img alt="Sign in with Twitter" src="join-models-together-with-linkable-plugin_files/sign_in_with_twitter.png"></a>
+</div>
+
+</div>
+
+                  
+                
+              </aside> 
+        		
+              
+            </footer>
+          </article>
+        
+      </div>
+      
+    </div>
+  
+
+    
+      <script type="text/javascript">
+    	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    	</script><script src="join-models-together-with-linkable-plugin_files/ga.js" type="text/javascript"></script>
+    	<script type="text/javascript">
+    	var pageTracker = _gat._getTracker("UA-4054156-1");
+    	pageTracker._setDomainName("none");
+    	pageTracker._setAllowLinker(true);
+    	pageTracker._setAllowHash(false);
+    	pageTracker._initData();
+    	pageTracker._trackPageview();
+    	</script>  	
+    
+	
+	<!-- Start Quantcast tag -->
+	<script type="text/javascript">
+	_qoptions={
+	qacct:"p-16ewveTurfCCM"
+	};
+	</script>
+	
+	
+    	<script type="text/javascript" src="join-models-together-with-linkable-plugin_files/quant.js"></script>
+    	<noscript>
+    	<a href="http://www.quantcast.com/p-16ewveTurfCCM" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-16ewveTurfCCM.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a>
+    	</noscript>	
+	
+	<!-- End Quantcast tag -->
+
+
+
+<script src="join-models-together-with-linkable-plugin_files/view.js" type="text/javascript"></script>
+<script src="join-models-together-with-linkable-plugin_files/sites.js" type="text/javascript"></script>
+<script type="text/javascript" src="join-models-together-with-linkable-plugin_files/widgets.js" defer="defer"></script>
+<script type="text/javascript" src="join-models-together-with-linkable-plugin_files/js"></script><script src="join-models-together-with-linkable-plugin_files/main.js" type="text/javascript"></script>
+
+<script>
+	var fbid_site_owner = 619903229;
+</script>
+
+
+<script>
+  var fb_comment_attachment_27450539   = {"description":"Linkable Plugin CakePHP plugin, PHP 5 Introduction Linkable is a lightweight approach for data mining on deep relations between models. Joins tables based on model relations to easily enable right to left find operations. Requirements CakePHP 1.2.x or 1.3.x PHP 5 Installation Download the lates ...","name":"Join Models Together with linkable plugin","media":[],"href":"http://programmingresources.posterous.com/join-models-together-with-linkable-plugin"};
+  var fb_comment_action_link_27450539  = [{"text":"Read more on Posterous","href":"http://programmingresources.posterous.com/join-models-together-with-linkable-plugin"}];
+</script>
+
+
+
+<div class="posterous_ojs" data-posterous-twitter-oauth="true" data-posterous-post-ids="%7B%2227450539%22%3A%22http%3A%2F%2Fprogrammingresources.posterous.com%2Fjoin-models-together-with-linkable-plugin%22%7D" data-posterous-redirect-url="http://posterous.com/oauth/init_oauth_and_redirect/?oauth_provider_type="></div>
+<iframe src="join-models-together-with-linkable-plugin_files/analytics_tracker.html" style="height: 1px; width: 1px; display: none;"></iframe>
+
+      <script type="text/javascript">
+      var mp_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+      document.write(unescape("%3Cscript src='" + mp_protocol + "api.mixpanel.com/site_media/js/api/mixpanel.js' type='text/javascript'%3E%3C/script%3E"));
+      </script><script src="join-models-together-with-linkable-plugin_files/mixpanel.js" type="text/javascript"></script>
+
+      <script type="text/javascript">
+      try { 
+          var mpmetrics = new MixpanelLib("9a3025103118d0cfb3f778328f140ccb"); 
+          mpmetrics.set_config({ cookie_name: "posterous_mp" });
+          mpmetrics.register({"registered":"false","browser":"Firefox","user":""});
+      } catch(err) {
+          null_fn = function () {};
+          var mpmetrics = { track: null_fn, track_funnel: null_fn, register: null_fn, register_once: null_fn, register_funnel: null_fn };
+      }
+      </script>      
+    
+
+<div class="posterous_ojs" data-posterous-backtype="true" data-posterous-urls-to-ids="%7B%22http%3A%2F%2Fprogrammingresources.posterous.com%2Fjoin-models-together-with-linkable-plugin%22%3A27450539%7D" data-posterous-url="http://api.backtype.com/tweetcount.json?key=3efa3a8a6c5edb459e8b&amp;mode=batch&amp;q=http://programmingresources.posterous.com/join-models-together-with-linkable-plugin&amp;callback=client_retweet_update"></div>
+
+
+<a href="http://www.posterous.com/" id="posterous_footerbar">Share it your way on Posterous - Create your own site, blog or group for free&nbsp;»</a></body></html>

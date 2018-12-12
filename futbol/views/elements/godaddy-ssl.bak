@@ -1,0 +1,10 @@
+<?php
+
+	//<span id="siteseal"><script type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=A85GJ9b93kg0TZOC0LqOrUKdOzJaEqGpraNCuhufbc11tuKSWdCYjpy"></script></span>
+
+   echo $this->Html->link(
+      $this->Html->image('/img/siteseal_gd_3_h_d_m.gif', array('class'=>'borderless', 'align'=>'middle')),
+      'https://seal.godaddy.com/verifySeal?sealID=A85GJ9b93kg0TZOC0LqOrUKdOzJaEqGpraNCuhufbc11tuKSWdCYjpy',
+      array('escape' => false,'target'=>'_blank')
+   );
+

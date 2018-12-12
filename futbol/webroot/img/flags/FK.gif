@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+	<HEAD>
+		<TITLE>The page cannot be found</TITLE>
+		<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+		<STYLE type="text/css">
+  BODY { font: 10pt/12pt verdana }
+  BODY { margin: 0pt }
+  H1 { font: 16px verdana; FONT-WEIGHT: bolder; }
+  H2 { font: 12px verdana; FONT-WEIGHT: bolder; }
+  A:link { color: #8b4513; }
+  A:visited { color: maroon }
+</STYLE>
+	</HEAD>
+	<BODY>
+		<table cellSpacing="0" cellPadding="0" width="100%" border="0">
+			<tbody>
+				<tr>
+					<td><A href="http://www.translatorscafe.com/cafe/default.asp"><IMG height="73" alt="Translation Agencies Database" src="http://www.translatorscafe.com/cafe/images/translation_agencies_l.jpg" width="468" border="0"></A></td>
+					<td vAlign="top" align="right" style="BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(http://www.translatorscafe.com/cafe/images/Translation_Agencies_R.jpg); BACKGROUND-REPEAT: no-repeat">
+						<BR>
+						&nbsp;&nbsp;<p>
+							<IMG style="WIDTH: 288px; HEIGHT: 1px" height="1" alt="Translation Jobs" src="http://www.translatorscafe.com/cafe/images/space.gif" width="116">
+					</td>
+				</tr>
+				<tr>
+					<td width="100%" background="http://www.translatorscafe.com/cafe/images/topshadow_bg.jpg" colSpan="2" height="17"></td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<TABLE width="500" border="0" cellspacing="10">
+			<TR>
+				<TD>
+					<h1>The page cannot be found</h1>
+					The page you are looking for might have been removed, had its name changed, or 
+					is temporarily unavailable.
+					<hr>
+					<p>Please try the following:</p>
+					<ul>
+						<li>
+							Make sure that the Web site address displayed in the address bar of your 
+							browser is spelled and formatted correctly.</li>
+						<li>
+							If you reached this page by clicking a link, contact the <A href="http://www.translatorscafe.com/cafe/default.asp">TranslatorsCafe.com</a> administrator 
+							to alert them that the link is incorrectly formatted.
+						</li>
+						<li>
+							Click the <a href="javascript:history.back(1)">Back</a> button or open the <A href="/cafe/">
+							TranslatorsCafe.com</A>, <A href="/tcterms/">TCTerms</a>, <A href="/term/">TermsCafe.com</a>, 
+							<A href="/tcUtils/search/">TC Search</a> or <a href="/tcterms/help/?ctg=C&amp;show=TOC">TC Help</a> 
+							pages and look for other links to the 
+							information that you want.</li>
+					</ul>
+					<p><b>HTTP Error 404</b> - File or directory not found.</p>
+			</TD>
+			</TR>
+		</TABLE>
+		<br><br><br><br><table style="background-image: url(/cafe/images/btmStrip.gif); background-position: 
+			top; background-repeat: repeat-x; width: 100%;" cellspacing="0" cellpadding="0" ID="Table1">
+			<tr>
+				<td style="color: #aaa; font-size: 9pt; font-weight: bold; padding: 5pt; padding-top: 14pt; 
+					vertical-align: top; width: 150px;">TranslatorsCaf&eacute;.com</td>
+				<td style="font-size: 10px;padding: 5pt;padding-top: 14pt;vertical-align: top;">&copy; 
+					ANVICA Software Development. All rights reserved.
+					<br>
+					<A href="/tcterms/help/?ctg=C&amp;HelpID=69">Privacy Policy</A>. <A href="/tcterms/help/?ctg=C&amp;HelpID=68">
+						Terms and Conditions of Use</A>. Use signifies your agreement.
+					<br>
+					Mail comments and suggestions to <A href="http://www.translatorscafe.com/cafe/SendMessage.asp?M=spprt">
+						TranslatorsCafe.com webmaster</A>
+					<br>
+					Directory of translators, interpreters and translation agencies<BR>
+					<BR>
+				</td>
+			</tr>
+		</table>
+	</BODY>
+</HTML>

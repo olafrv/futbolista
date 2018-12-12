@@ -1,0 +1,7 @@
+<?php
+    echo $this->Html->image('/img/seal_125-50_dblue.png', array(
+      'url' => 'http://www.sslshopper.com/ssl-checker.html#hostname=https://www.olafrv.info'
+    ));
+/*
+<!--- DO NOT EDIT - GlobalSign SSL Site Seal Code - DO NOT EDIT ---><table title="CLICK TO VERIFY: This site uses a GlobalSign SSL Certificate to secure your personal information." width="125" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><script src="//ssif1.globalsign.com/SiteSeal/siteSeal/siteSeal/siteSeal.do?p1=www.olafrv.info&amp;p2=SZ125-50&amp;p3=image&amp;p4=en&amp;p5=V0023&amp;p6=S001&amp;p7=https"></script><span> <a tabindex="-1" id="aa" href="javascript:ss_open_sub()"><img name="ss_imgTag" src="//seal.alphassl.com/SiteSeal/siteSeal/siteSeal/siteSealImage.do?p1=www.olafrv.info&amp;p2=SZ125-50&amp;p3=image&amp;p4=en&amp;p5=V0023&amp;p6=S001&amp;p7=https&amp;deterDn=" alt="Por favor haga clic para ver el perfil." oncontextmenu="return false;" galleryimg="no" border="0"></a></span><span id="ss_siteSeal_fin_SZ125-50_image_en_V0023_S001"></span><script type="text/javascript" src="//seal.globalsign.com/SiteSeal/gmogs_image_125-50_en_dblue.js"></script></td></tr></tbody></table><!--- DO NOT EDIT - GlobalSign SSL Site Seal Code - DO NOT EDIT --->
+*/

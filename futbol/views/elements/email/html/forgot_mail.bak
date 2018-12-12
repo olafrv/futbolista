@@ -1,0 +1,20 @@
+Estimado Futbolero,<br>
+<br/>
+AGRADECEMOS LEA CUIDADOSAMENTE ESTE CORREO.<br/>
+<br/>
+Ha recibido este correo electronico porque ha SOLICITADO el REINICIO DE SU CLAVE 
+de acceso al sistema <?php echo Configure::read('Futbol.serverSslUrl'); ?>.<br>
+<br>
+Si UD. NO SOLICITO el reinicio de su clave HAGA CASO OMISO de este correo.<br/>
+<br/>
+Si solo olvido su nombre de usuario y NO DESEA REINICIAR SU CLAVE simplemente 
+NO HAGA CLIC en los vinculos que se listan a continuacion.<br/>
+<br/>
+<?php foreach($Users as $index => $User): ?>
+Para REINICIAR la CLAVE del usuario ***"<?php echo $User["username"]; ?>"*** haga CLIC en el siguiente VINCULO:<br/>
+<br/>
+<?php echo $this->Html->link($Links[$index], $Links[$index]); ?><br/>
+<br/>
+<?php endforeach; ?>
+Si tiene dudas, comentarios u observaciones visite <?php echo Configure::read('Futbol.serverSslUrl') . '/bets/contact'; ?>
+<br/>

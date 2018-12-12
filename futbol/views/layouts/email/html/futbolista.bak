@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+   <?php echo $this->Html->charset(); ?>
+   <title>
+   <?php echo $title_for_layout; ?>
+   </title>
+   <?php
+      echo $this->Html->css($html->url('/css/envision1.0.css', true)); //Modified Envision CSS for Futbo
+      echo $this->Html->css($html->url('/css/futbol.css', true)); //Own CSS for Futol
+      echo $this->Html->css($html->url('/css/cake.futbol.css', true)); //Modified Cake CSS for Futbol
+      echo $this->Html->css($html->url('/css/redmond/jquery-ui-1.8.12.custom.css', true)); // Include jQuery UI library
+   ?>
+</head>
+<body style="background: #FAFAFA url(/img/grass.jpg) repeat 5px 5px;">
+<div id="main">
+	<?php echo $content_for_layout;?>
+</div>
+</body>
+</html>

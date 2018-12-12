@@ -1,0 +1,597 @@
+--- src/Locale/default.pot	2016-03-05 20:51:38.853878604 -0430
++++ src/Locale/es_VE/default.pot	2016-03-05 21:10:28.101870273 -0430
+@@ -1,11 +1,11 @@
+ # LANGUAGE translation of CakePHP Application
+-# Copyright YEAR NAME <EMAIL@ADDRESS>
++# Copyright Olaf Reitmaier <olafrv@gmail.com>
+ #
+ #, fuzzy
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: PROJECT VERSION\n"
+-"POT-Creation-Date: 2016-03-06 01:21+0000\n"
++"POT-Creation-Date: 2016-03-06 01:01+0000\n"
+ "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+ "Last-Translator: NAME <EMAIL@ADDRESS>\n"
+ "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+@@ -16,461 +16,462 @@
+ 
+ #: Controller/BetsController.php:82
+ msgid "Unable to update and save bet data"
+-msgstr ""
++msgstr "No se pudo guardar y actualizar la predicción"
+ 
+ #: Controller/BetsController.php:96
+ msgid "Unable to save created bet data"
+-msgstr ""
++msgstr "No se pudo guardar la predicción creada"
+ 
+ #: Controller/BetsController.php:102
+ msgid "Match is closed for bets"
+-msgstr ""
++msgstr "Partido cerrado para predicciones"
+ 
+ #: Controller/BetsController.php:107
+ msgid "Match not found"
+-msgstr ""
++msgstr "Partido no encontrado"
+ 
+ #: Controller/UsersController.php:83;122
+ msgid "Cross password change error"
+-msgstr ""
++msgstr "Error de cambio cruzado de clave"
+ 
+ #: Controller/UsersController.php:136
+ msgid "Password updated"
+-msgstr ""
++msgstr "Clave actualizada"
+ 
+ #: Controller/UsersController.php:140
+ msgid "Unable to save the password"
+-msgstr ""
++msgstr "No se pudo guardar la clave"
+ 
+ #: Controller/UsersController.php:179
+ msgid "Cross register unkwown error"
+-msgstr ""
++msgstr "Error desconocido de registro"
+ 
+ #: Controller/UsersController.php:199
+ msgid "The user has been saved/created, now you can login"
+-msgstr ""
++msgstr "Usuario guardado/creado, ahora puede iniciar sesión"
+ 
+ #: Controller/UsersController.php:204
+ msgid "Unable to save the user"
+-msgstr ""
++msgstr "No se pudo guardar el usuario"
+ 
+ #: Controller/UsersController.php:209
+ msgid "User already exists"
+-msgstr ""
++msgstr "Usuario ya existe"
+ 
+ #: Controller/UsersController.php:244
+ msgid "Cross login unkwown error"
+-msgstr ""
++msgstr "Error desconocido de inicio de sesión cruzado"
+ 
+ #: Controller/UsersController.php:265
+ msgid "Cross login user '{0}' created/updated"
+-msgstr ""
++msgstr "Usuario '{0}' de sesión cruzada creado/actualizado"
+ 
+ #: Controller/UsersController.php:277
+ msgid "Username or password invalid"
+-msgstr ""
++msgstr "Usuario o clave inválido(a)"
+ 
+ #: Controller/UsersController.php:283
+ msgid "Invalid captcha"
+-msgstr ""
++msgstr "Captcha inválido"
+ 
+ #: Template/Bets/index.ctp:126
+ msgid "Fase"
+-msgstr ""
++msgstr "Fase"
+ 
+ #: Template/Bets/index.ctp:126
+ msgid "Group"
+-msgstr ""
++msgstr "Grupo"
+ 
+ #: Template/Bets/top10.ctp:17
+ msgid "Position"
+-msgstr ""
++msgstr "Posición"
+ 
+ #: Template/Bets/top10.ctp:18
+ msgid "User"
+-msgstr ""
++msgstr "Usuario"
+ 
+ #: Template/Bets/top10.ctp:19
+ msgid "Points"
+-msgstr ""
++msgstr "Puntos"
+ 
+ #: Template/Cell/Matches/kickoffs.ctp:21
+ msgid "Today"
+-msgstr ""
++msgstr "Hoy"
+ 
+ #: Template/Cell/Matches/kickoffs.ctp:31
+ msgid "Matches"
+-msgstr ""
++msgstr "Partidos"
+ 
+ #: Template/Cell/Matches/kickoffs.ctp:64
+ msgid "Previous"
+-msgstr ""
++msgstr "Previo"
+ 
+ #: Template/Cell/Matches/kickoffs.ctp:78
+ msgid "Next"
+-msgstr ""
++msgstr "Siguiente"
+ 
+ #: Template/Element/menu.ctp:20
+ msgid "Bets"
+-msgstr ""
++msgstr "Predicciones"
+ 
+ #: Template/Element/menu.ctp:26
+ msgid "Mine"
+-msgstr ""
++msgstr "Mis Predicciones"
+ 
+ #: Template/Element/menu.ctp:32
+ msgid "Top 10"
+-msgstr ""
++msgstr "Posiciones"
+ 
+ #: Template/Element/menu.ctp:41
+ msgid "Session"
+-msgstr ""
++msgstr "Sesión"
+ 
+ #: Template/Element/menu.ctp:46
+ #: Template/Users/chpass.ctp:3
+ msgid "Change Password"
+-msgstr ""
++msgstr "Cambiar Clave"
+ 
+ #: Template/Element/menu.ctp:51
+ msgid "Close"
+-msgstr ""
++msgstr "Cerrar"
+ 
+ #: Template/Users/chpass.ctp:4;5
+ #: Template/Users/login.ctp:10;11
+ #: Template/Users/register.ctp:16;20
+ msgid "Password"
+-msgstr ""
++msgstr "Clave"
+ 
+ #: Template/Users/chpass.ctp:6;7
+ msgid "Password Confirmation"
+-msgstr ""
++msgstr "Confirmar clave"
+ 
+ #: Template/Users/chpass.ctp:9
+ msgid "Save"
+-msgstr ""
++msgstr "Guardar"
+ 
+ #: Template/Users/forgot.ctp:6
+ msgid "Forgot Username or Password"
+-msgstr ""
++msgstr "Olvidó su usuario o clave"
+ 
+ #: Template/Users/forgot.ctp:7
+ #: Template/Users/login.ctp:7;9
+ #: Template/Users/register.ctp:8;12
+ msgid "Username"
+-msgstr ""
++msgstr "Usuario"
+ 
+ #: Template/Users/forgot.ctp:9
+ msgid "Username or email"
+-msgstr ""
++msgstr "Usuario o correo electrónico"
+ 
+ #: Template/Users/forgot.ctp:13
+ #: Template/Users/login.ctp:16
+ #: Template/Users/register.ctp:52
+ msgid "Enter"
+-msgstr ""
++msgstr "Entrar"
+ 
+ #: Template/Users/login.ctp:6
+ msgid "Login"
+-msgstr ""
++msgstr "Usuario"
+ 
+ #: Template/Users/login.ctp:12
+ msgid "New user?"
+-msgstr ""
++msgstr "Usuario nuevo?"
+ 
+ #: Template/Users/login.ctp:13
+ msgid "Forgot your password?"
+-msgstr ""
++msgstr "Olvidó su clave?"
+ 
+ #: Template/Users/register.ctp:6
+ msgid "User Registration"
+-msgstr ""
++msgstr "Registro de Usuario"
+ 
+-#: Template/Users/register.ctp:24;28
++#: Template/Users/register.ctp:28
+ msgid "Password confirm"
+-msgstr ""
++msgstr "Confirmar clave"
+ 
+ #: Template/Users/register.ctp:33;37;41
+ msgid "Email"
+-msgstr ""
++msgstr "Correo Electrónico"
+ 
+ #: Template/Users/register.ctp:45
+ msgid "Email confirmation"
+-msgstr ""
++msgstr "Confirmar Correo Electrónico"
+ 
+ #: Template/Error/error400.ctp:33
+ #: Template/Error/error500.ctp:35
+ msgid "Error"
+-msgstr ""
++msgstr "Error"
+ 
+ #: Template/Error/error400.ctp:35
+ msgid "The requested address %s was not found on this server."
+-msgstr ""
++msgstr "La URL solicitada %s no fue encontrada en este servidor."
+ 
+ #: Template/Error/error500.ctp:33
+ msgid "An Internal Error Has Occurred"
+-msgstr ""
++msgstr "Ha ocurrido un error interno"
+ 
+ #: Controller/Component/AuthComponent.php:454
+ msgid "You are not authorized to access that location."
+-msgstr ""
++msgstr "No esta autorizado para acceder está ubicación."
+ 
+ #: Controller/Component/CsrfComponent.php:155
+ msgid "Missing CSRF token cookie"
+-msgstr ""
++msgstr "Cookie Token CSRF perdida"
+ 
+ #: Controller/Component/CsrfComponent.php:159
+ msgid "CSRF token mismatch."
+-msgstr ""
++msgstr "Cookie Token CSRF inválida"
+ 
+ #: Error/ExceptionRenderer.php:249
+ msgid "Not Found"
+-msgstr ""
++msgstr "No encontrado"
+ 
+ #: Error/ExceptionRenderer.php:251
+ msgid "An Internal Error Has Occurred."
+-msgstr ""
++msgstr "Ha ocurrido un error interno."
+ 
+ #: I18n/Number.php:89
+ msgid "{0,number,#,###.##} KB"
+-msgstr ""
++msgstr "{0,number,#,###.##} KB"
+ 
+ #: I18n/Number.php:91
+ msgid "{0,number,#,###.##} MB"
+-msgstr ""
++msgstr "{0,number,#,###.##} MB"
+ 
+ #: I18n/Number.php:93
+ msgid "{0,number,#,###.##} GB"
+-msgstr ""
++msgstr "{0,number,#,###.##} GB"
+ 
+ #: I18n/Number.php:95
+ msgid "{0,number,#,###.##} TB"
+-msgstr ""
++msgstr "{0,number,#,###.##} TB"
+ 
+ #: I18n/Number.php:87
+ msgid "{0,number,integer} Byte"
+ msgid_plural "{0,number,integer} Bytes"
+-msgstr[0] ""
+-msgstr[1] ""
++msgstr[0] "{0,number,integer} Byte"
++msgstr[1] "{0,number,integer} Bytes"
+ 
+ #: I18n/RelativeTimeFormatter.php:80
+ msgid "{0} from now"
+-msgstr ""
++msgstr "{0} desde ahora"
+ 
+ #: I18n/RelativeTimeFormatter.php:80
+ msgid "{0} ago"
+-msgstr ""
++msgstr "{0} atrás"
+ 
+ #: I18n/RelativeTimeFormatter.php:82
+ msgid "{0} after"
+-msgstr ""
++msgstr "{0} después"
+ 
+ #: I18n/RelativeTimeFormatter.php:82
+ msgid "{0} before"
+-msgstr ""
++msgstr "{0} antes"
+ 
+ #: I18n/RelativeTimeFormatter.php:113
+ msgid "just now"
+-msgstr ""
++msgstr "ahora"
+ 
+ #: I18n/RelativeTimeFormatter.php:150
+ msgid "about a second ago"
+-msgstr ""
++msgstr "hace un segundo"
+ 
+ #: I18n/RelativeTimeFormatter.php:151
+ msgid "about a minute ago"
+-msgstr ""
++msgstr "hace un minuto"
+ 
+ #: I18n/RelativeTimeFormatter.php:152
+ msgid "about an hour ago"
+-msgstr ""
++msgstr "hace una hora"
+ 
+ #: I18n/RelativeTimeFormatter.php:153;326
+ msgid "about a day ago"
+-msgstr ""
++msgstr "hace un día"
+ 
+ #: I18n/RelativeTimeFormatter.php:154;327
+ msgid "about a week ago"
+-msgstr ""
++msgstr "hace una semana"
+ 
+ #: I18n/RelativeTimeFormatter.php:155;329
+ msgid "about a year ago"
+-msgstr ""
++msgstr "hace un año"
+ 
+ #: I18n/RelativeTimeFormatter.php:165
+ msgid "in about a second"
+-msgstr ""
++msgstr "en un segundo"
+ 
+ #: I18n/RelativeTimeFormatter.php:166
+ msgid "in about a minute"
+-msgstr ""
++msgstr "en un minuto"
+ 
+ #: I18n/RelativeTimeFormatter.php:167
+ msgid "in about an hour"
+-msgstr ""
++msgstr "en una hora"
+ 
+ #: I18n/RelativeTimeFormatter.php:168;339
+ msgid "in about a day"
+-msgstr ""
++msgstr "en un día"
+ 
+ #: I18n/RelativeTimeFormatter.php:169;340
+ msgid "in about a week"
+-msgstr ""
++msgstr "en una semana"
+ 
+ #: I18n/RelativeTimeFormatter.php:170;342
+ msgid "in about a year"
+-msgstr ""
++msgstr "en un año"
+ 
+ #: I18n/RelativeTimeFormatter.php:298
+ msgid "today"
+-msgstr ""
++msgstr "hoy"
+ 
+ #: I18n/RelativeTimeFormatter.php:328
+ msgid "about a month ago"
+-msgstr ""
++msgstr "hace un mes"
+ 
+ #: I18n/RelativeTimeFormatter.php:341
+ msgid "in about a month"
+-msgstr ""
++msgstr "en un mes"
+ 
+ #: I18n/RelativeTimeFormatter.php:362
+ msgid "%s ago"
+-msgstr ""
++msgstr "%s atrás"
+ 
+ #: I18n/RelativeTimeFormatter.php:363
+ msgid "on %s"
+-msgstr ""
++msgstr "en %s"
+ 
+ #: I18n/RelativeTimeFormatter.php:47;125;310
+ msgid "{0} year"
+ msgid_plural "{0} years"
+-msgstr[0] ""
+-msgstr[1] ""
++msgstr[0] "{0} año"
++msgstr[1] "{0} años"
+ 
+ #: I18n/RelativeTimeFormatter.php:51;128;313
+ msgid "{0} month"
+ msgid_plural "{0} months"
+-msgstr[0] ""
+-msgstr[1] ""
++msgstr[0] "{0} mes"
++msgstr[1] "{0} meses"
+ 
+ #: I18n/RelativeTimeFormatter.php:57;131;316
+ msgid "{0} week"
+ msgid_plural "{0} weeks"
+-msgstr[0] ""
+-msgstr[1] ""
++msgstr[0] "{0} semana"
++msgstr[1] "{0} semanas"
+ 
+ #: I18n/RelativeTimeFormatter.php:59;134;319
+ msgid "{0} day"
+ msgid_plural "{0} days"
+-msgstr[0] ""
+-msgstr[1] ""
++msgstr[0] "{0} día"
++msgstr[1] "{0} días"
+ 
+ #: I18n/RelativeTimeFormatter.php:64;137
+ msgid "{0} hour"
+ msgid_plural "{0} hours"
+-msgstr[0] ""
+-msgstr[1] ""
++msgstr[0] "{0} hora"
++msgstr[1] "{0} horas"
+ 
+ #: I18n/RelativeTimeFormatter.php:68;140
+ msgid "{0} minute"
+ msgid_plural "{0} minutes"
+-msgstr[0] ""
+-msgstr[1] ""
++msgstr[0] "{0} minuta"
++msgstr[1] "{0} minutas"
+ 
+ #: I18n/RelativeTimeFormatter.php:72;143
+ msgid "{0} second"
+ msgid_plural "{0} seconds"
+-msgstr[0] ""
+-msgstr[1] ""
++msgstr[0] "{0} segundo"
++msgstr[1] "{0} segundos"
+ 
+ #: Network/Response.php:1416
+ msgid "The requested file was not found"
+-msgstr ""
++msgstr "Archivo solicitado no encontrado"
+ 
+ #: ORM/RulesChecker.php:49
+ msgid "This value is already in use"
+-msgstr ""
++msgstr "El valor ya está en uso"
+ 
+ #: ORM/RulesChecker.php:83
+ msgid "This value does not exist"
+-msgstr ""
++msgstr "El valor no existe"
+ 
+ #: Utility/Text.php:724
+ msgid "and"
+-msgstr ""
++msgstr "y"
+ 
+ #: Validation/Validator.php:103
+ msgid "This field is required"
+-msgstr ""
++msgstr "Este campo es obligatorio"
+ 
+ #: Validation/Validator.php:104
+ msgid "This field cannot be left empty"
+-msgstr ""
++msgstr "Este campo no puede ser vacío"
+ 
+ #: Validation/Validator.php:1406
+ msgid "The provided value is invalid"
+-msgstr ""
++msgstr "El valor del campo es inválido"
+ 
+ #: View/Helper/FormHelper.php:928
+ msgid "New %s"
+-msgstr ""
++msgstr "Nuevo %s"
+ 
+ #: View/Helper/FormHelper.php:931
+ msgid "Edit %s"
+-msgstr ""
++msgstr "Editar %s"
+ 
+ #: View/Helper/FormHelper.php:1732
+ msgid "Submit"
+-msgstr ""
++msgstr "Enviar"
+ 
+ #: View/Helper/HtmlHelper.php:770
+ msgid "Home"
+-msgstr ""
++msgstr "Inicio"
+ 
+ #: View/Widget/DateTimeWidget.php:530
+ msgid "January"
+-msgstr ""
++msgstr "Enero"
+ 
+ #: View/Widget/DateTimeWidget.php:531
+ msgid "February"
+-msgstr ""
++msgstr "Febrero"
+ 
+ #: View/Widget/DateTimeWidget.php:532
+ msgid "March"
+-msgstr ""
++msgstr "Marzo"
+ 
+ #: View/Widget/DateTimeWidget.php:533
+ msgid "April"
+-msgstr ""
++msgstr "Abril"
+ 
+ #: View/Widget/DateTimeWidget.php:534
+ msgid "May"
+-msgstr ""
++msgstr "Mayo"
+ 
+ #: View/Widget/DateTimeWidget.php:535
+ msgid "June"
+-msgstr ""
++msgstr "Junio"
+ 
+ #: View/Widget/DateTimeWidget.php:536
+ msgid "July"
+-msgstr ""
++msgstr "Julio"
+ 
+ #: View/Widget/DateTimeWidget.php:537
+ msgid "August"
+-msgstr ""
++msgstr "Agosto"
+ 
+ #: View/Widget/DateTimeWidget.php:538
+ msgid "September"
+-msgstr ""
++msgstr "Septiembre"
+ 
+ #: View/Widget/DateTimeWidget.php:539
+ msgid "October"
+-msgstr ""
++msgstr "Octubre"
+ 
+ #: View/Widget/DateTimeWidget.php:540
+ msgid "November"
+-msgstr ""
++msgstr "Noviembre"
+ 
+ #: View/Widget/DateTimeWidget.php:541
+ msgid "December"
+-msgstr ""
++msgstr "Diciembre"
++
+ 
