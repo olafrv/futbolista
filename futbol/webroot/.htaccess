@@ -1,4 +1,5 @@
-RewriteOptions inherit
+# This options causes problem in Apache2 on Ubuntu!
+#RewriteOptions inherit
 
 RewriteEngine On
     
